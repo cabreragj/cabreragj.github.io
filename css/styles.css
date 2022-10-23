@@ -541,8 +541,9 @@ a {
 .ifr {
   display: grid;
   justify-content: space-around;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  
+
 }
 
 .ifr__art {
@@ -550,7 +551,7 @@ a {
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1%;
+
 }
 
 .ifr__link {
@@ -559,13 +560,15 @@ a {
   height: 300px;
   margin-bottom: 5%;
   border: 5px solid rgb(145, 144, 144);
-  grid-column: 2 / 4;
+  grid-column: 1 / 1;
 }
 
 .ifr__titulo {
   text-align: center;
   margin-bottom: 20px;
   color: #ebebeb;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1199px) {
@@ -576,7 +579,6 @@ a {
   }
 }
   @media (max-width: 650px) {
- 
     .inquietud {
     margin-top: 5%;
     width:100%;
@@ -657,7 +659,7 @@ a {
 
 /*------Footer------*/
 .footer {
-  background-image: url(../IMG/fondo\ index.jpg);
+  background-image: url(../img/fondoindex.jpg);
   margin-top: auto;
   margin-bottom: auto;
 
