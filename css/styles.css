@@ -183,7 +183,8 @@ a {
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 100px;
+  width: 100%;
 }
 
 @media (max-width: 1199px) {
