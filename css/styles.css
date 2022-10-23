@@ -148,15 +148,13 @@ a {
 
 
 .textoslider {
-  max-width: 1100px;
+
   font-size: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   color: black;
-  width: 100%;
   border-radius: 10px;
   background-color: rgba(207, 207, 207, 0.527);
-  padding: 0;
-  margin: auto;
+  text-align: center;
   
 }
 
@@ -183,8 +181,6 @@ a {
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  width: 100%;
 }
 
 @media (max-width: 1199px) {
@@ -205,7 +201,7 @@ a {
   border-radius: 5px;
   border-color: #000;
   background: rgb(241, 235, 235);
-  margin-bottom: 80px;
+  margin: 80px;
 }
 
 
