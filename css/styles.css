@@ -24,7 +24,7 @@ a {
 
 /*------HEADER------*/
 .header {
-  background-image: url(../img/fondo\ index.jpg);
+  background-image: url(../img/fondoindex.jpg);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +76,7 @@ a {
 /*-----MAIN------*/
 .main {
   max-height: auto;
-  background-image: url(../img/fondo\ page.jpg);
+  background-image: url(../img/fondopage.jpg);
   display: flex;
   flex-flow: wrap;
   justify-content: center;
