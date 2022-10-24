@@ -172,17 +172,11 @@ a {
   color: #fff
 }
 
-.productos-texto {
-  text-align: center;
-  color: #fff;
-  padding: 5px;
-  font-size: 25px;
-}
-
 .productoscuadrantes {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  
 }
 
 @media (max-width: 1199px) {
@@ -190,7 +184,12 @@ a {
     display: grid;
     justify-content: space-around;
     align-items: center;
-    padding: 5%;
+    padding: 2%;
+    
+  }
+  .tituloart1 {
+    margin-top: 6%;
+    font-size: 20px;
   }
 }
 
@@ -203,9 +202,7 @@ a {
   border-radius: 5px;
   border-color: #000;
   background: rgb(241, 235, 235);
-  margin-bottom: 80px;
-
-
+  margin-bottom: 25px;
 }
 
 .cuadrante__titulo {
@@ -220,7 +217,9 @@ a {
 
 .cuadrante__texto {
   font-size: 15px;
-  background-color: rgba(114, 112, 112, 0.527)
+  background-color: rgba(114, 112, 112, 0.527);
+  padding: 2%;
+  
 }
 .box1__titulo,
 .box2__titulo,
@@ -237,13 +236,19 @@ a {
   font-size: 25px;
 }
 
+@media (max-width: 1199px) {
+  .containergrid_titulo {
+    font-size: 20px;
+  }
+}
+
 .containergrid {
   display: grid;
   grid-gap: 5px;
   padding: 20px;
   gap: 30px;
   margin-right: 8%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, auto);
   grid-template-areas: "box1  box2"
@@ -254,24 +259,20 @@ a {
   grid-column: box1;
   grid-row: box1;
   display: grid;
-  justify-content: right;
-
+  justify-content: center;
 }
 
 .box1__img {
   width: 82%;
-  margin-left: 20%;
-
+  margin-left: 10%;
 }
 
 .box2__img {
   width: 100%;
-
 }
 
 .box3__img {
   width: 100%;
-
 }
 
 .containergrid .box2 {
@@ -332,6 +333,12 @@ a {
 
 /*------Galeria------*/
 
+.productos-texto {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  font-size: 25px;
+}
 .galeria {
   display: flex;
   flex-flow: wrap;
@@ -353,6 +360,10 @@ a {
   .galeria img {
     max-width: 90%;
     padding: 1.1rem;
+  }
+
+  .productos-texto{
+    font-size: 20px;
   }
 }
 
