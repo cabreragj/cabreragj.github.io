@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: auto;
+  }
+  
+  .body {
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  .main {
+    max-height: auto;
+    background-image: url(../img/fondopage.jpg);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+  }
+  

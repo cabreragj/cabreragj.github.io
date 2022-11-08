@@ -1,0 +1,155 @@
+.contact {
+  max-width: 610px;
+  margin: 25px auto;
+  font-size: 16px;
+
+}
+
+.contact-header,
+.contact p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact-header {
+  background: rgb(67, 72, 77);
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.contact-container {
+  background: #ebebeb;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.contact p {
+  padding: 25px;
+}
+
+.contact input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  margin-top: 5%;
+}
+
+
+.contact input[type="nombre-apellido"],
+.contact input[type="email"] .contact input[type="inquietud-usuario"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+
+}
+
+.contact input[type="nombre-apellido"]:focus,
+.contact input[type="email"]:focus .contact input[type="inquietud-usuario"]:focus {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.contact input[type="submit"] {
+  background: rgb(59, 65, 70);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background: rgb(37, 40, 43);
+}
+
+.contact input[type="submit"]:focus {
+  border-color: rgb(110, 113, 117);
+}
+
+.inquietud {
+  margin-top: 5%;
+  max-width: 400px;
+  max-height: 100px;
+}
+
+.sec {
+  &__titulo {
+    text-align: center;
+    color: #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+}
+
+.ifr {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+
+  &__art {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  &__link {
+    display: grid;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 5%;
+    border: 5px solid rgb(145, 144, 144);
+    grid-column: 1 / 1;
+  }
+
+  &__titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ebebeb;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .ifr {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+    &__art {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      align-items: center;
+      max-width: 700px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .inquietud {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .ifr__link {
+    width: 90%;
+    max-height: 300px;
+  }
+  .contact {
+    width: 90%;
+  }
+}
+

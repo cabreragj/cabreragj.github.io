@@ -1,0 +1,42 @@
+.footer {
+    background-image: url(../img/fondoindex.jpg);
+    margin-top: auto;
+    margin-bottom: auto;
+    &__titulo {
+      font-size: 25px;
+      padding: 10px;
+      text-align: center;
+    }
+    &__redes {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 20px;
+    }
+    
+    &__redes i {
+      color: #000;
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .footer{
+    &__titulo {
+      font-size: 20px;
+      padding: 10px;
+      text-align: center;
+    }
+    &__redes i {
+      color: #000;
+      font-size: 2.5rem;
+    }
+  }
+  }
+  
+  @media (max-width: 678px) {
+  
+    .footer__redes i {
+      color: #000;
+      font-size: 2rem;
+    }
+  }

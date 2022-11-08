@@ -1,0 +1,65 @@
+.usreg {
+  max-width: 700px;
+  margin: 25px auto;
+  font-size: 16px;
+}
+
+
+.usreg-header,
+.usreg p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.usreg-header {
+  background: rgb(67, 72, 77);
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.genero {
+  margin-top: 2%;
+}
+
+.usreg-container {
+  background: #ebebeb;
+  padding: 16px;
+}
+
+.usreg p {
+  padding: 16px;
+}
+
+.usreg input {
+  align-content: center;
+  margin-top: 10px;
+
+}
+
+.usreg input[type="submit"] {
+  background: rgb(59, 65, 70);
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.usreg input[type="submit"]:hover {
+  background: rgb(37, 40, 43);
+}
+
+.usreg input[type="submit"]:focus {
+  border-color: rgb(110, 113, 117);
+}

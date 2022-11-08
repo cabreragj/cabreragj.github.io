@@ -1,0 +1,14 @@
+@import "./utils/_variables.scss";
+@import "./utils/_mixin.scss";
+
+@import "./base/_base.scss";
+
+@import "./components/_header.scss";
+@import "./components/_footer.scss";
+@import "./components/_cuadrante.scss";
+
+@import "./pages/_index.scss";
+@import "./pages/_contacto.scss";
+@import "./pages/_ingreso.scss";
+@import "./pages/_productos.scss";
+@import "./pages/_registro.scss";
