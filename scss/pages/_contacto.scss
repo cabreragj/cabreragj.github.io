@@ -12,17 +12,17 @@
 }
 
 .contact-header {
-  background: rgb(67, 72, 77);
+  background: $gris-topo;
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: $blanco;
 }
 
 .contact-container {
-  background: #ebebeb;
+  background: $blanco;
   padding: 16px;
   overflow: hidden;
 }
@@ -47,23 +47,23 @@
 
 .contact input[type="nombre-apellido"],
 .contact input[type="email"] .contact input[type="inquietud-usuario"] {
-  background: #fff;
+  background: $blanco;
   border-color: #bbb;
-  color: #555;
+  color: $gris-topo;
 
 }
 
 .contact input[type="nombre-apellido"]:focus,
 .contact input[type="email"]:focus .contact input[type="inquietud-usuario"]:focus {
-  background: #fff;
+  background: $blanco;
   border-color: #bbb;
-  color: #555;
+  color: $gris-topo;
 }
 
 .contact input[type="submit"] {
   background: rgb(59, 65, 70);
   border-color: transparent;
-  color: #fff;
+  color: $blanco;
   cursor: pointer;
 }
 
@@ -84,7 +84,7 @@
 .sec {
   &__titulo {
     text-align: center;
-    color: #ebebeb;
+    color: $blanco;
     margin-top: 25px;
     margin-bottom: 50px;
   }
@@ -124,15 +124,10 @@
 
 @media (max-width: 1199px) {
   .ifr {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
+    @include flex-center;
 
     &__art {
-      display: flex;
-      flex-flow: wrap;
-      justify-content: center;
-      align-items: center;
+      @include flex-center;
       max-width: 700px;
     }
   }

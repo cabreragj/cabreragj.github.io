@@ -5,6 +5,20 @@
   align-items: center;
 }
 
+@mixin flex-evenly{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@mixin flex-space{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @mixin grid-center{
     display: grid;
     justify-content: center;

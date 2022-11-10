@@ -37,9 +37,9 @@ a {
 .header {
   background-image: url(../img/fondoindex.jpg);
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
   height: 100px;
 }
 .header__titulo {
@@ -75,7 +75,9 @@ a {
   }
   .header .barranav__lista {
     display: flex;
+    flex-flow: wrap;
     justify-content: space-evenly;
+    align-items: center;
   }
 }
 .footer {
@@ -90,7 +92,9 @@ a {
 }
 .footer__redes {
   display: flex;
+  flex-flow: wrap;
   justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
 }
 .footer__redes i {
@@ -118,8 +122,9 @@ a {
 .cuadrante {
   display: flex;
   flex-flow: wrap;
-  max-width: 550px;
   justify-content: center;
+  align-items: center;
+  max-width: 550px;
   margin: 5px;
   border-radius: 5px;
   border-color: #000;
@@ -217,6 +222,7 @@ a {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .box1__titulo,
@@ -319,7 +325,7 @@ a {
 }
 
 .contact-header {
-  background: rgb(67, 72, 77);
+  background: rgb(59, 65, 70);
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
@@ -329,7 +335,7 @@ a {
 }
 
 .contact-container {
-  background: #ebebeb;
+  background: #fff;
   padding: 16px;
   overflow: hidden;
 }
@@ -355,14 +361,14 @@ a {
 .contact input[type=email] .contact input[type=inquietud-usuario] {
   background: #fff;
   border-color: #bbb;
-  color: #555;
+  color: rgb(59, 65, 70);
 }
 
 .contact input[type=nombre-apellido]:focus,
 .contact input[type=email]:focus .contact input[type=inquietud-usuario]:focus {
   background: #fff;
   border-color: #bbb;
-  color: #555;
+  color: rgb(59, 65, 70);
 }
 
 .contact input[type=submit] {
@@ -388,7 +394,7 @@ a {
 
 .sec__titulo {
   text-align: center;
-  color: #ebebeb;
+  color: #fff;
   margin-top: 25px;
   margin-bottom: 50px;
 }
@@ -425,6 +431,7 @@ a {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    align-items: center;
   }
   .ifr__art {
     display: flex;
@@ -461,7 +468,7 @@ a {
 }
 
 .login-header {
-  background: rgb(67, 72, 77);
+  background: rgb(59, 65, 70);
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
@@ -496,7 +503,7 @@ a {
 .login input[type=contraseña] {
   background: #fff;
   border-color: #bbb;
-  color: #555;
+  color: rgb(59, 65, 70);
 }
 
 .login input[type=email]:focus,
@@ -547,6 +554,7 @@ a {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    align-items: center;
   }
   .galeria img {
     max-width: 90%;
@@ -569,7 +577,7 @@ a {
 }
 
 .usreg-header {
-  background: rgb(67, 72, 77);
+  background: rgb(59, 65, 70);
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
@@ -583,7 +591,7 @@ a {
 }
 
 .usreg-container {
-  background: #ebebeb;
+  background: #fff;
   padding: 16px;
 }
 
@@ -613,11 +621,11 @@ a {
 }
 
 .usreg input[type=submit]:hover {
-  background: rgb(37, 40, 43);
+  background: #000;
 }
 
 .usreg input[type=submit]:focus {
-  border-color: rgb(110, 113, 117);
+  border-color: rgba(114, 112, 112, 0.527);
 }
 
 /*# sourceMappingURL=styles.css.map */

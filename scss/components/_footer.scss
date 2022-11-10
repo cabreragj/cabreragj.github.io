@@ -8,8 +8,7 @@
       text-align: center;
     }
     &__redes {
-      display: flex;
-      justify-content: space-evenly;
+      @include flex-evenly;
       padding: 20px;
     }
     

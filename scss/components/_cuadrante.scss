@@ -1,12 +1,10 @@
 .cuadrante {
-    display: flex;
-    flex-flow: wrap;
+    @include flex-center;
     max-width: 550px;
-    justify-content: center;
     margin: 5px;
     border-radius: 5px;
-    border-color: #000;
-    background: rgb(241, 235, 235);
+    border-color: $negro;
+    background: $gris;
     margin-bottom: 25px;
   
     &__titulo {
@@ -21,7 +19,7 @@
   
     &__texto {
       font-size: 15px;
-      background-color: rgba(114, 112, 112, 0.527);
+      background-color: $gris-oscuro;
       padding: 2%;
   
     }

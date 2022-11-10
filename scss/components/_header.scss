@@ -1,9 +1,6 @@
 .header {
   background-image: url(../img/fondoindex.jpg);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+  @include flex-space;
   height: 100px;
 
   &__titulo {
@@ -17,7 +14,7 @@
     }
 
     &__item {
-      color: rgb(188, 189, 223);
+      color:$color-primario;
       display: flex;
       gap: auto;
       font-size: 20px;
@@ -30,13 +27,12 @@
 
 @media (max-width: 992px) {
   .header {
-    display: grid;
-    justify-content: center;
+    @include grid-center;
     align-items: center;
 
     .barranav {
       &__item {
-        color: rgb(188, 189, 223);
+        color:$color-primario;
         display: flex;
         font-size: 15px;
         margin-right: 0;
@@ -48,8 +44,7 @@
       }
 
       &__lista {
-        display: flex;
-        justify-content: space-evenly;
+        @include flex-evenly;
       }
     }
   }

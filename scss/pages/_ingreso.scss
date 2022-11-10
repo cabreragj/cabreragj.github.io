@@ -13,13 +13,13 @@
   }
   
   .login-header {
-    background: rgb(67, 72, 77);
+    background: $gris-topo;
     padding: 20px;
     font-size: 1.4em;
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: $blanco;
   }
   
   .login-container {
@@ -47,9 +47,9 @@
 
   .login input[type="email"],
   .login input[type="contraseña"] {
-    background: #fff;
+    background: $blanco;
     border-color: #bbb;
-    color: #555;
+    color: $gris-topo;
   }
   
   .login input[type="email"]:focus,
@@ -58,9 +58,9 @@
   }
   
   .login input[type="submit"] {
-    background: rgb(59, 65, 70);
+    background: $gris-topo;
     border-color: transparent;
-    color: #fff;
+    color: $blanco;
     cursor: pointer;
   }
   

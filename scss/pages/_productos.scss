@@ -1,6 +1,6 @@
 .productos-texto {
     text-align: center;
-    color: #fff;
+    color: $blanco;
     padding: 5px;
     font-size: 25px;
   }
@@ -17,9 +17,7 @@
   
   @media (max-width: 900px) {
     .galeria {
-      display: flex;
-      flex-flow: wrap;
-      justify-content: center;
+      @include flex-center;
     }
   
     .galeria img {

@@ -12,13 +12,13 @@
 }
 
 .usreg-header {
-  background: rgb(67, 72, 77);
+  background: $gris-topo;
   padding: 20px;
   font-size: 1.4em;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: $blanco;
 }
 
 .genero {
@@ -26,7 +26,7 @@
 }
 
 .usreg-container {
-  background: #ebebeb;
+  background: $blanco;
   padding: 16px;
 }
 
@@ -41,9 +41,9 @@
 }
 
 .usreg input[type="submit"] {
-  background: rgb(59, 65, 70);
+  background: $gris-topo;
   border-color: transparent;
-  color: #fff;
+  color: $blanco;
   cursor: pointer;
   box-sizing: border-box;
   display: block;
@@ -57,9 +57,9 @@
 }
 
 .usreg input[type="submit"]:hover {
-  background: rgb(37, 40, 43);
+  background: $negro;
 }
 
 .usreg input[type="submit"]:focus {
-  border-color: rgb(110, 113, 117);
+  border-color: $gris-oscuro;
 }

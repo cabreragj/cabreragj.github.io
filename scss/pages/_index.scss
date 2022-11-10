@@ -79,13 +79,11 @@
   margin-bottom: 2%;
   font-size: 32px;
   text-align: center;
-  color: #fff
+  color: $blanco;
 }
 
 .productoscuadrantes {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
+  @include flex-center;
 
 }
 
@@ -93,14 +91,14 @@
 .box2__titulo,
 .box3__titulo {
   text-align: center;
-  color: #fff;
+  color: $blanco;
   padding: 5px;
   font-size: 15px;
 }
 
 .containergrid_titulo {
   text-align: center;
-  color: #fff;
+  color: $blanco;
   font-size: 25px;
 }
 
@@ -120,8 +118,7 @@
 .containergrid .box1 {
   grid-column: box1;
   grid-row: box1;
-  display: grid;
-  justify-content: center;
+  @include grid-center;
 }
 
 .containergrid .box2,
@@ -172,8 +169,7 @@
   .containergrid .box2,
   .containergrid .box3 {
     width: 100%;
-    display: grid;
-    justify-content: center;
+    @include grid-center;
   }
   .productoscuadrantes {
     display: grid;
